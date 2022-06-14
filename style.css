@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(0, 100%, 74%) url('images/bg-intro-desktop.png');
+}
+main {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#first {
+    width: 45%;
+    margin: 120px auto 0 auto;
+}
+#first h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+h1 small {
+    font-size: 20px;
+}
+#first p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#second {
+    margin: 70px;
+}
+#second h1 {
+    background-color: rgba(156, 13, 156, 0.485) ;
+    margin-bottom: 47px;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+input {
+    width: 70%;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+    height: 40px;
+    padding: 7px 9px;
+    border-color: rgb(67, 66, 91);
+}
+button {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+    height: 45px;
+    padding: 13px 17px;
+    background-color: hsl(154, 59%, 51%);
+    border-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 18px;
+}
+
+@media  screen and (max-width:770px) {
+    #first {
+        width: 100%;
+    }
+    input {
+        width: 95%;
+    }
+    button {
+        width: 100%;
+    }
+    
+}
